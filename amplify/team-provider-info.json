@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amazontranscribetran-dev-193844-authRole",
+      "UnauthRoleArn": "arn:aws:iam::892090217348:role/amplify-amazontranscribetran-dev-193844-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::892090217348:role/amplify-amazontranscribetran-dev-193844-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-amazontranscribetran-dev-193844-deployment",
+      "UnauthRoleName": "amplify-amazontranscribetran-dev-193844-unauthRole",
+      "StackName": "amplify-amazontranscribetran-dev-193844",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:892090217348:stack/amplify-amazontranscribetran-dev-193844/522fb3d0-6c55-11eb-82fb-06fa363be140",
+      "AmplifyAppId": "d3spinkaswsziy"
+    },
+    "categories": {
+      "auth": {
+        "amazontranscribetrane6cce9b4": {}
+      }
+    }
+  }
+}
