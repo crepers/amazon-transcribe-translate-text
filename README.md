@@ -1,4 +1,8 @@
-![Screen1](./images/ScreenShot1.png)
+# AWS Amplify 를 이용하여 번역 사이트 만들기
+
+![](https://i.imgur.com/emhdYLF.png)
+
+## 사전 준비
 
 우리가 사용할 몇 가지 소프트웨어를 설치하고 업데이트 합니다.
 ```shell=
@@ -14,9 +18,9 @@ nvm alias default v12.11.0
 npm install -g @aws-amplify/cli
 ```
 
-이 명령어들은 완료 되는데 시간이 수 분이 소요됩니다.
+이 명령어들은 완료되는데 시간이 수 분이 소요됩니다.
 
-## 기본 region 설정하기
+### 기본 region 설정하기
 
 가장 좋은 방법은 인프라를 고객과 가까운 지역에 구성하는 것입니다. (Amplify는 서울 리전도 지원합니다.)
 
@@ -30,9 +34,7 @@ END
 AWS Amplify CLI는 모바일과 웹 어플리케이션을 개발을 심플하게 해주는 강력한 기능들을 제공하는 툴체인 입니다.
 위의 단계에서는 설치만 진행했기 때문에 설정 단계가 추가적으로 필요합니다. AWS Amplify CLI는 ~/.aws/config을 찾아 작업할 Region 정보를 판별합니다.
 
----
-
-## React 어플리케이션 만들기
+### React 어플리케이션 만들기
 **create-react-app** CLI로 새로운 리액트 웹 어플리케이션을 만듭니다.
 
 터미널에서 `npx create-react-app amazon-transcribe-translate-text`를 실행하고 새로 생성된 디렉토리로 이동합니다 `cd amazon-transcribe-translate-text`
